@@ -14,12 +14,13 @@ Convert model to mnn type
 sudo apt install libopencv-dev
 
 4.
-'''
 cd Yolo-Fastest-MNN
+
 mkdir build && cd build && cmake ..
+
 make
+
 ./yolo
-’’’
 
 ##  Reference
 * model from :https://github.com/dog-qiuqiu/Yolo-Fastest
