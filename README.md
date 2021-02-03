@@ -1,7 +1,10 @@
 # Yolo-Fastest-MNN
-Run on :raspberry pi 4B 2G 
-Input size :320*320
-Average inference time : 0.035s 
+  Run on :raspberry pi 4B 2G 
+  
+  Input size :320*320
+  
+  Average inference time : 0.035s 
+  
 ## How to use
 1.
 * https://github.com/alibaba/MNN 
