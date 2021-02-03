@@ -85,7 +85,7 @@ void postprocess(std::vector<MNN::Tensor*> output,std::vector<BBox> &boxes,int i
 				rect.y1 = int(yy - h * 0.5);
 				rect.y2 = int(yy + h * 0.5);
 				rect.score = scores;
-				rect.label = topK(output[fpn]->host<float>()+c * channel + s * 25 +5,CLASS_NUM);
+				rect.label = topK(output[fpn]->host<float>()+c * channel + s * fmsize +5,CLASS_NUM);
 				boxes.push_back(rect);
 				//cout<<rect.x1<< " "<<rect.y1<<" "<<rect.x2<<" "<<rect.y2<<endl;
 				}
