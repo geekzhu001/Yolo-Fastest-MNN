@@ -170,6 +170,7 @@ void nms(std::vector<BBox> &input,std::vector<BBox> &output,float iou_threshold,
                     rects.y2 += buf[i].y2 * rate;
                     rects.score += buf[i].score * rate;
                 }
+		rects.label = buf[0].label;
                 output.push_back(rects);
                 break;
             }
