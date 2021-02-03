@@ -19,6 +19,7 @@
     sudo apt install libopencv-dev
 
 4.
+    
     cd Yolo-Fastest-MNN
 
     mkdir build && cd build && cmake ..
